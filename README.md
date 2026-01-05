@@ -70,7 +70,7 @@ Outside code, I’m into **football**.
 ## 📈 Stats
 
 <p align="center">
-![Snake animation](https://github.com/YOUR_USERNAME/ackjosh/blob/output/github-contribution-grid-snake.svg)
+  <img src="https://raw.githubusercontent.com/Ackjosh/Ackjosh/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
