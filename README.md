@@ -26,6 +26,13 @@ Outside code, I’m into **football**.
 
 ---
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Ackjosh/Ackjosh/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+---
+<br>
+
 ## 🧠 Current Focus
 
 - Data Structures & Algorithms (consistency > streaks)
@@ -33,6 +40,8 @@ Outside code, I’m into **football**.
 - Writing **readable, maintainable code**
 
 ---
+
+<br>
 
 ## ⚡ Projects
 
@@ -47,6 +56,8 @@ Outside code, I’m into **football**.
 - Solved **600+ problems** across platforms    
 - 2 star on CodeChef (max. 1589)
 ---
+
+<br>
 
 ## 🔧 Languages, Frameworks & Tools
 
@@ -65,15 +76,7 @@ Outside code, I’m into **football**.
 ### Tools
 <img src="https://cdn.simpleicons.org/git" height="38"/> <img src="https://cdn.simpleicons.org/github/white" height="38"/> <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" height="38"/> <img src="https://cdn.simpleicons.org/postman" height="38"/>
 
----
-
-## 📈 Stats
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Ackjosh/Ackjosh/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
+<br>
 
 ## 📮 Let’s Connect
 
