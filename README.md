@@ -54,7 +54,7 @@ Outside code, I’m into **football**.
 
 <h3><img height="28" src="https://cdn.simpleicons.org/langchain/ffffff" /> AI</h3>
 
--**Foundry - AI Startup Advisor** - Developed a RAG-based startup advisory platform leveraging Chroma vector search, BGE embeddings, and Gemini→Groq fallback to provide context-aware guidance on key startup challenges.
+- **Foundry : AI Startup Advisor** - Developed a RAG-based startup advisory platform leveraging Chroma vector search, BGE embeddings, and Gemini→Groq fallback to provide context-aware guidance on key startup challenges.
 
 <h3><img height="28" src="https://cdn.simpleicons.org/cplusplus" /> DSA / C++</h3>
 
