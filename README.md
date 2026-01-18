@@ -14,7 +14,7 @@ Currently focused on **consistency**, problem-solving, and applied knowledge
 
 ## 🙋🏻‍♂️ About Me
 
-I mainly work with **C++ for DSA** and **JavaScript for web development**.  
+I mainly work with **C++ for DSA** and **TypeScript and Python for development**.
 I enjoy understanding how things work under the hood — whether it’s algorithms, backend logic, or system behavior.
 
 I’ve worked on:
