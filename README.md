@@ -50,7 +50,11 @@ Outside code, I’m into **football**.
 
 - **Real Time Fuel Avalaibility System (RFAS)** – A real time fuel tracking web + app system uses Firebase, FireStore Cloud DB along with a Flutter App and OSM API for maps
 - **Movie Management Web App** – Search, favourites & watchlist movies with Firebase auth    
-- **Portfolio Website** – Minimal, dark-themed site showcasing personal projects and achievements  
+- **Portfolio Website** – Minimal, dark-themed site showcasing personal projects and achievements
+
+<h3><img height="28" src="https://cdn.simpleicons.org/langchain" /> AI</h3>
+
+-**Foundry - AI Startup Advisor** - Developed a RAG-based startup advisory platform leveraging Chroma vector search, BGE embeddings, and Gemini→Groq fallback to provide context-aware guidance on key startup challenges.
 
 <h3><img height="28" src="https://cdn.simpleicons.org/cplusplus" /> DSA / C++</h3>
 
