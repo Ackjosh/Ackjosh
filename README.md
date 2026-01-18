@@ -75,8 +75,8 @@ Outside code, I’m into **football**.
 ### UI / Motion
 <img src="https://cdn.simpleicons.org/gsap" height="38"/> <img src="https://cdn.simpleicons.org/vite" height="38"/> <img src="https://cdn.simpleicons.org/framer" height="38"/>
 
-### AI / RAG
- <img src="https://cdn.simpleicons.org/langchain" height="38"/> <img src="https://cdn.simpleicons.org/huggingface" height="38"/> <img src="https://cdn.simpleicons.org/kaggle" height="38"/> <img src="https://cdn.simpleicons.org/jupyter" height="38"/> <img src="https://cdn.simpleicons.org/fastapi" height="38"/> <img src="https://cdn.simpleicons.org/numpy" height="38"/>
+### AI
+ <img src="https://cdn.simpleicons.org/langchain/ffffff" height="38"/> <img src="https://cdn.simpleicons.org/huggingface" height="38"/> <img src="https://cdn.simpleicons.org/kaggle" height="38"/> <img src="https://cdn.simpleicons.org/jupyter" height="38"/> <img src="https://cdn.simpleicons.org/fastapi" height="38"/> <img src="https://cdn.simpleicons.org/numpy" height="38"/>
  
 ### Tools
 <img src="https://cdn.simpleicons.org/git" height="38"/> <img src="https://cdn.simpleicons.org/github/white" height="38"/> <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" height="38"/> <img src="https://cdn.simpleicons.org/postman" height="38"/>
