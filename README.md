@@ -35,7 +35,7 @@ Outside code, I’m into **football**.
 
 ## 🧠 Current Focus
 
-- Data Structures & Algorithms (consistency > streaks)
+- Data Structures & Algorithms
 - Exploring Agentic AI and how autonomous systems can enhance the way developers build
 - Writing **readable, maintainable code**
 
