@@ -4,8 +4,8 @@
 
 ### Hey, I'm Akshat 👋🏻
 
-I'm a Computer Engineering undergrad at Pune Institute of Computer Technology  
-I like building **systems that actually work at scale** — from DSA to LLM pipelines
+Computer Engineering undergrad at Pune Institute of Computer Technology  
+I like building things — from **DSA problems** to **LLM-powered systems**
 
 <br>
 
@@ -14,16 +14,15 @@ I like building **systems that actually work at scale** — from DSA to LLM pipe
 
 ## 🙋🏻‍♂️ About Me
 
-I mainly work with **C++ (DSA)** and **TypeScript + Python (development)**.
+I mostly work with **C++ for DSA** and **TypeScript + Python for development**.
 
-I’m interested in understanding systems deeply —  
-not just writing code, but **why it works and how it breaks**.
+I enjoy figuring out how things actually work —  
+not just writing code, but understanding the *why behind it*.
 
-I’ve worked on:
-- Building **RAG systems with vector databases and embeddings**
-- Designing **LLM pipelines with validation + fallback strategies**
-- Developing **full-stack apps with real-time sync**
-- Solving **400+ DSA problems across platforms**
+Lately I’ve been:
+- Building **RAG systems with vector DBs + embeddings**
+- Playing around with **LLM pipelines & multi-agent workflows**
+- Solving DSA problems (400+ so far)
 
 Outside code, I’m into **football**.
 
@@ -38,52 +37,54 @@ Outside code, I’m into **football**.
 
 ## 🧠 Current Focus
 
-- Data Structures & Algorithms (consistency > bursts)
-- Agentic AI systems & multi-agent workflows
-- Writing **clean, production-level code**
+- Staying consistent with DSA  
+- Exploring **agentic AI systems**  
+- Writing cleaner, more maintainable code  
 
 ---
 
 <br>
 
-## 💼 Work Experience
+## 💼 Experience
 
 ### Artificial Intelligence Intern — Eklavya.me  
-**Feb 2026 – Apr 2026 | Remote**
+**Feb 2026 – Apr 2026**
 
-- Built a **multi-agent feedback system** to refine synthetic datasets using LLMs  
-- Designed a **Pydantic validation layer** ensuring strict schema adherence  
-- Reduced logical inconsistencies in LLM outputs → improved reliability  
-- Worked on **production-grade handling of non-deterministic AI systems**
+- Worked on a **multi-agent system** for improving synthetic datasets  
+- Built validation layers using **Pydantic** for structured LLM outputs  
+- Focused on making LLM pipelines more reliable  
 
 ---
+<br>
 
 ## ⚡ Projects
 
 <h3><img height="28" src="https://cdn.simpleicons.org/langchain/ffffff" /> AI</h3>
 
-- **Foundry : AI Startup Advisor**  
-  → RAG-based advisory system using ChromaDB + BGE embeddings  
-  → **99% uptime** via Gemini → Groq fallback  
-  → **40% faster responses** using caching + optimized embeddings  
+- **Foundry — AI Startup Advisor**  
+  → RAG-based system using ChromaDB + BGE embeddings  
+  → Added fallback (Gemini → Groq) to keep things running smoothly  
+  → Reduced response latency by **~40%** using caching + optimized embeddings  
 
 <h3><img height="28" src="https://cdn.simpleicons.org/react" /> Web</h3>
 
-- **Real Time Fuel Availability System (RFAS)**  
-  → Real-time fuel monitoring system with Firestore sync + Flutter integration  
-  → Reduced manual coordination overhead by **70%**  
+- **RFAS (Fuel Availability System)**  
+  → Real-time fuel tracking with Firestore + Flutter integration  
+  → Reduced manual coordination overhead by **~70%**  
+  → Built a React-based dashboard to monitor fuel levels and location data  
 
-- **Flick-Nest (Movie Management App)**  
+- **Flick-Nest**  
   → Full-stack app managing **10,000+ titles**  
-  → Advanced filtering + structured watchlist/favourites system  
+  → Advanced filtering (name, year, status) + structured watchlist/favourites  
 
 - **Portfolio Website**  
-  → Minimal, dark-themed personal site with focus on clarity  
+  → Simple, dark-themed site focused on clarity  
 
-<h3><img height="28" src="https://cdn.simpleicons.org/cplusplus" /> DSA / C++</h3>
+<h3><img height="28" src="https://cdn.simpleicons.org/cplusplus" /> DSA</h3>
 
-- Solved **400+ problems** across platforms  
-- Strong focus on **clean implementation + patterns**
+- ~700+ problems solved across platforms
+- 3 star on CodeChef
+- Focus on clean implementations and pattern recognition    
 
 ---
 
@@ -92,20 +93,55 @@ Outside code, I’m into **football**.
 ## 🔧 Languages, Frameworks & Tools
 
 ### Languages
-<img src="https://cdn.simpleicons.org/cplusplus" height="38"/>    <img src="https://cdn.simpleicons.org/javascript" height="38"/> <img src="https://cdn.simpleicons.org/python" height="38"/>
+<p>
+  <img src="https://cdn.simpleicons.org/cplusplus" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/javascript" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/python" height="38"/>
+</p>
 
 ### Web
-<img src="https://cdn.simpleicons.org/typescript" height="38"/>  <img src="https://cdn.simpleicons.org/react" height="38"/> <img src="https://cdn.simpleicons.org/node.js" height="38"/> <img src="https://cdn.simpleicons.org/express/white" height="38"/> <img src="https://cdn.simpleicons.org/firebase" height="38"/> <img src="https://cdn.simpleicons.org/mongodb" height="38"/> <img src="https://cdn.simpleicons.org/mysql" height="38"/> <img src="https://cdn.simpleicons.org/tailwindcss" height="38"/> <img src="https://cdn.simpleicons.org/html5" height="38"/> <img src="https://cdn.simpleicons.org/css" height="38"/>  
+<p>
+  <img src="https://cdn.simpleicons.org/typescript" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/react" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/node.js" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/express/white" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/firebase" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/mongodb" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/mysql" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/tailwindcss" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/html5" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/css" height="38"/>
+</p>
+
+### UI / Motion
+<p>
+  <img src="https://cdn.simpleicons.org/gsap" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/vite" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/framer" height="38"/>
+</p>
 
 ### AI
-<img src="https://cdn.simpleicons.org/langchain/ffffff" height="38"/> <img src="https://cdn.simpleicons.org/huggingface" height="38"/> <img src="https://cdn.simpleicons.org/kaggle" height="38"/> <img src="https://cdn.simpleicons.org/jupyter" height="38"/> <img src="https://cdn.simpleicons.org/fastapi" height="38"/> <img src="https://cdn.simpleicons.org/numpy" height="38"/>
+<p>
+  <img src="https://cdn.simpleicons.org/langchain/ffffff" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/huggingface" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/kaggle" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/jupyter" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/fastapi" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/numpy" height="38"/>
+</p>
 
 ### Tools
-<img src="https://cdn.simpleicons.org/git" height="38"/> <img src="https://cdn.simpleicons.org/github/white" height="38"/> <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" height="38"/> <img src="https://cdn.simpleicons.org/postman" height="38"/>
+<p>
+  <img src="https://cdn.simpleicons.org/git" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/github/white" height="38" style="margin-right:10px;"/>
+  <img src="https://img.icons8.com/color/48/000000/visual-studio-code-2019.png" height="38" style="margin-right:10px;"/>
+  <img src="https://cdn.simpleicons.org/postman" height="38"/>
+</p>
 
+---
 <br>
 
-## 📮 Let’s Connect
+## 📮 Let's Connect
 
 <p align="center">
   <a href="https://github.com/Ackjosh">
@@ -118,7 +154,7 @@ Outside code, I’m into **football**.
     <img src="https://cdn.simpleicons.org/leetcode" height="40"/>
   </a>
   <a href="https://www.codechef.com/users/ackjosh">
-    <img src="https://cdn.simpleicons.org/codechef/white" height="40"/>
+    <img src="https://cdn.simpleicons.org/codechef/white" height="40"/> 
   </a>
 </p>
 
