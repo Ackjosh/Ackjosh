@@ -22,7 +22,7 @@ not just writing code, but understanding the *why behind it*.
 Lately I’ve been:
 - Building **RAG systems with vector DBs + embeddings**
 - Playing around with **LLM pipelines & multi-agent workflows**
-- Solving DSA problems (600+ so far)
+- Solving DSA problems (500+ so far)
 
 Outside code, I’m into **football**.
 
@@ -81,7 +81,7 @@ Outside code, I’m into **football**.
 
 <h3><img height="28" src="https://cdn.simpleicons.org/cplusplus" /> DSA</h3>
 
-- ~700+ problems solved across platforms
+- ~500+ problems solved across platforms
 - 3 star on CodeChef
 
 ---
