@@ -22,7 +22,7 @@ not just writing code, but understanding the *why behind it*.
 Lately I’ve been:
 - Building **RAG systems with vector DBs + embeddings**
 - Playing around with **LLM pipelines & multi-agent workflows**
-- Solving DSA problems (400+ so far)
+- Solving DSA problems (600+ so far)
 
 Outside code, I’m into **football**.
 
@@ -64,14 +64,12 @@ Outside code, I’m into **football**.
 - **Foundry — AI Startup Advisor**  
   → RAG-based system using ChromaDB + BGE embeddings  
   → Added fallback (Gemini → Groq) to keep things running smoothly  
-  → Reduced response latency by **~40%** using caching + optimized embeddings  
 
 <h3><img height="28" src="https://cdn.simpleicons.org/react" /> Web</h3>
 
 - **RFAS (Fuel Availability System)**  
   → Real-time fuel tracking with Firestore + Flutter integration  
-  → Reduced manual coordination overhead by **~70%**  
-  → Built a React-based dashboard to monitor fuel levels and location data  
+  → Reduced manual coordination overhead by **~70%** 
 
 - **Flick-Nest**  
   → Full-stack app managing **10,000+ titles**  
@@ -84,7 +82,6 @@ Outside code, I’m into **football**.
 
 - ~700+ problems solved across platforms
 - 3 star on CodeChef
-- Focus on clean implementations and pattern recognition    
 
 ---
 
