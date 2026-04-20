@@ -52,7 +52,7 @@ Outside code, I’m into **football**.
 
 - Worked on a **multi-agent system** for improving synthetic datasets  
 - Built validation layers using **Pydantic** for structured LLM outputs  
-- Focused on making LLM pipelines more reliable  
+- Reduced inconsistencies in LLM outputs through structured validation
 
 ---
 <br>
@@ -63,7 +63,8 @@ Outside code, I’m into **football**.
 
 - **Foundry — AI Startup Advisor**  
   → RAG-based system using ChromaDB + BGE embeddings  
-  → Added fallback (Gemini → Groq) to keep things running smoothly  
+  → Added fallback (Gemini → Groq) to keep things running smoothly   
+  → Reduced response latency by ~40% using caching + optimized embeddings
 
 <h3><img height="28" src="https://cdn.simpleicons.org/react" /> Web</h3>
 
