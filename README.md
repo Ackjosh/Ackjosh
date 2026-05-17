@@ -158,13 +158,13 @@ Outside code, I’m into **football**.
 
 ---
 <!-- ====================== END ====================== -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Chatbot UI</title>
-
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -175,7 +175,6 @@ Outside code, I’m into **football**.
             height: 100vh;
             margin: 0;
         }
-
         .chat-container {
             width: 400px;
             background: #1e1e1e;
@@ -183,7 +182,6 @@ Outside code, I’m into **football**.
             overflow: hidden;
             box-shadow: 0 0 15px rgba(0,0,0,0.5);
         }
-
         .chat-header {
             background: #292929;
             color: white;
@@ -192,7 +190,6 @@ Outside code, I’m into **football**.
             font-size: 20px;
             font-weight: bold;
         }
-
         .chat-box {
             height: 400px;
             overflow-y: auto;
@@ -201,30 +198,25 @@ Outside code, I’m into **football**.
             flex-direction: column;
             gap: 10px;
         }
-
         .message {
             padding: 10px 14px;
             border-radius: 10px;
             max-width: 75%;
         }
-
         .user {
             background: #0078ff;
             color: white;
             align-self: flex-end;
         }
-
         .bot {
             background: #333;
             color: white;
             align-self: flex-start;
         }
-
         .input-area {
             display: flex;
             border-top: 1px solid #444;
         }
-
         input {
             flex: 1;
             padding: 12px;
@@ -234,7 +226,6 @@ Outside code, I’m into **football**.
             color: white;
             font-size: 16px;
         }
-
         button {
             padding: 12px 20px;
             border: none;
@@ -243,55 +234,40 @@ Outside code, I’m into **football**.
             cursor: pointer;
             font-size: 16px;
         }
-
         button:hover {
             background: #005fd1;
         }
     </style>
 </head>
 <body>
-
     <div class="chat-container">
-
         <div class="chat-header">
             AI Chatbot
         </div>
-
         <div class="chat-box" id="chatBox">
             <div class="message bot">
                 Hello! Type something.
             </div>
         </div>
-
         <div class="input-area">
             <input type="text" id="userInput" placeholder="Enter message...">
             <button onclick="sendMessage()">Send</button>
         </div>
-
     </div>
-
     <script>
-
         function addMessage(text, sender)
         {
             const chatBox = document.getElementById("chatBox");
-
             const msg = document.createElement("div");
             msg.classList.add("message");
             msg.classList.add(sender);
-
             msg.textContent = text;
-
             chatBox.appendChild(msg);
-
             chatBox.scrollTop = chatBox.scrollHeight;
         }
-
-
         function botReply(message)
         {
             message = message.toLowerCase();
-
             if(message === "hello")
             {
                 return "Hi!";
@@ -313,30 +289,21 @@ Outside code, I’m into **football**.
                 return "I don't understand.";
             }
         }
-
-
         function sendMessage()
         {
             const input = document.getElementById("userInput");
             const userText = input.value.trim();
-
             if(userText === "")
             {
                 return;
             }
-
             addMessage(userText, "user");
-
             const response = botReply(userText);
-
             setTimeout(() => {
                 addMessage(response, "bot");
             }, 500);
-
             input.value = "";
         }
-
-
         document.getElementById("userInput")
         .addEventListener("keypress", function(event)
         {
@@ -345,8 +312,72 @@ Outside code, I’m into **football**.
                 sendMessage();
             }
         });
-
     </script>
 
 </body>
 </html>
+
+Secure File Sharing Between Cloud Instances using AWS
+EC2
+Step 1: Login to AWS
+Open AWS Console and go to EC2 Dashboard.
+Step 2: Create Key Pair
+1. Open EC2 Dashboard
+2. Click Key Pairs
+3. Click Create Key Pair
+4. Name: cloudkey
+5. Type: RSA
+6. Download cloudkey.pem
+Step 3: Launch Sender EC2
+Name: Sender-Instance
+AMI: Amazon Linux
+Instance Type: t3.micro
+Key Pair: cloudkey
+Allow SSH Traffic: Enabled
+Step 4: Launch Receiver EC2
+Name: Receiver-Instance
+AMI: Amazon Linux
+Instance Type: t3.micro
+Key Pair: cloudkey
+Allow SSH Traffic: Enabled
+Step 5: Connect to Sender EC2
+AWS Console → Sender Instance → Connect → EC2 Instance Connect
+Step 6: Create File
+Run in Sender EC2 Browser Terminal
+Command
+echo "Secure file transfer using AWS EC2" > file.txt
+Check File
+cat file.txt
+Step 7: Upload PEM Key
+Run in YOUR SYSTEM TERMINAL
+(Open Downloads Folder → Right Click → Open in Terminal)
+Command
+scp -i cloudkey.pem cloudkey.pem ec2-user@SENDER-PUBLIC-IP:/home/ec2-user/
+If Asked
+Type: yes
+Step 8: Set Permissions
+Run in Sender EC2 Browser Terminal
+Commands
+chmod 400 cloudkey.pem
+chmod 600 file.txt
+Step 9: Copy Receiver Private IP
+AWS Console → Receiver Instance → Copy Private IPv4 Address
+Step 10: Transfer File Securely
+Run in Sender EC2 Browser Terminal
+Command
+scp -i cloudkey.pem file.txt ec2-user@RECEIVER-PRIVATE-IP:/home/ec2-user/
+Step 11: Verify File
+Open Receiver EC2 Browser Terminal
+Commands
+ls
+cat file.txt
+Expected Output
+Secure file transfer using AWS EC2
+Security Features
+• SSH Secure Communication
+• SCP Encrypted File Transfer
+• Key Pair Authentication
+• Private IP Communication Inside VPC
+• File Permission Security
+Conclusion
+Successfully created secure communication and secure file sharing between two AWS EC2 instances using SSH and 
