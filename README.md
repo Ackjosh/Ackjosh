@@ -160,12 +160,15 @@ Outside code, I’m into **football**.
 <!-- ====================== END ====================== -->
 
 <!DOCTYPE html>
+
 <html lang="en">
 <head>
+  
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Chatbot UI</title>
     <style>
+    
         body {
             font-family: Arial, sans-serif;
             background: #121212;
@@ -238,10 +241,13 @@ Outside code, I’m into **football**.
             background: #005fd1;
         }
     </style>
+    
 </head>
 <body>
-    <div class="chat-container">
-        <div class="chat-header">
+  
+  <div class="chat-container">
+       
+    <div class="chat-header">
             AI Chatbot
         </div>
         <div class="chat-box" id="chatBox">
@@ -252,8 +258,10 @@ Outside code, I’m into **football**.
         <div class="input-area">
             <input type="text" id="userInput" placeholder="Enter message...">
             <button onclick="sendMessage()">Send</button>
-        </div>
-    </div>
+        </div>  
+  
+  </div>
+
     <script>
         function addMessage(text, sender)
         {
@@ -328,56 +336,109 @@ Step 2: Create Key Pair
 4. Name: cloudkey
 5. Type: RSA
 6. Download cloudkey.pem
+
 Step 3: Launch Sender EC2
+
 Name: Sender-Instance
+
 AMI: Amazon Linux
+
 Instance Type: t3.micro
+
 Key Pair: cloudkey
+
 Allow SSH Traffic: Enabled
+
 Step 4: Launch Receiver EC2
+
 Name: Receiver-Instance
+
 AMI: Amazon Linux
+
 Instance Type: t3.micro
+
 Key Pair: cloudkey
+
 Allow SSH Traffic: Enabled
+
 Step 5: Connect to Sender EC2
+
 AWS Console → Sender Instance → Connect → EC2 Instance Connect
+
 Step 6: Create File
+
 Run in Sender EC2 Browser Terminal
+
 Command
+
 echo "Secure file transfer using AWS EC2" > file.txt
+
 Check File
+
 cat file.txt
+
 Step 7: Upload PEM Key
+
 Run in YOUR SYSTEM TERMINAL
+
 (Open Downloads Folder → Right Click → Open in Terminal)
+
 Command
+
 scp -i cloudkey.pem cloudkey.pem ec2-user@SENDER-PUBLIC-IP:/home/ec2-user/
+
 If Asked
+
 Type: yes
+
 Step 8: Set Permissions
+
 Run in Sender EC2 Browser Terminal
+
 Commands
+
 chmod 400 cloudkey.pem
+
 chmod 600 file.txt
+
 Step 9: Copy Receiver Private IP
+
 AWS Console → Receiver Instance → Copy Private IPv4 Address
+
 Step 10: Transfer File Securely
+
 Run in Sender EC2 Browser Terminal
+
 Command
+
 scp -i cloudkey.pem file.txt ec2-user@RECEIVER-PRIVATE-IP:/home/ec2-user/
+
 Step 11: Verify File
+
 Open Receiver EC2 Browser Terminal
+
 Commands
+
 ls
+
 cat file.txt
+
 Expected Output
+
 Secure file transfer using AWS EC2
+
 Security Features
+
 • SSH Secure Communication
+
 • SCP Encrypted File Transfer
+
 • Key Pair Authentication
+
 • Private IP Communication Inside VPC
+
 • File Permission Security
+
 Conclusion
+
 Successfully created secure communication and secure file sharing between two AWS EC2 instances using SSH and 
