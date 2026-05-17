@@ -158,3 +158,195 @@ Outside code, I’m into **football**.
 
 ---
 <!-- ====================== END ====================== -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Chatbot UI</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #121212;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .chat-container {
+            width: 400px;
+            background: #1e1e1e;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+        }
+
+        .chat-header {
+            background: #292929;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .chat-box {
+            height: 400px;
+            overflow-y: auto;
+            padding: 15px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .message {
+            padding: 10px 14px;
+            border-radius: 10px;
+            max-width: 75%;
+        }
+
+        .user {
+            background: #0078ff;
+            color: white;
+            align-self: flex-end;
+        }
+
+        .bot {
+            background: #333;
+            color: white;
+            align-self: flex-start;
+        }
+
+        .input-area {
+            display: flex;
+            border-top: 1px solid #444;
+        }
+
+        input {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            outline: none;
+            background: #222;
+            color: white;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 12px 20px;
+            border: none;
+            background: #0078ff;
+            color: white;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background: #005fd1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="chat-container">
+
+        <div class="chat-header">
+            AI Chatbot
+        </div>
+
+        <div class="chat-box" id="chatBox">
+            <div class="message bot">
+                Hello! Type something.
+            </div>
+        </div>
+
+        <div class="input-area">
+            <input type="text" id="userInput" placeholder="Enter message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+
+    </div>
+
+    <script>
+
+        function addMessage(text, sender)
+        {
+            const chatBox = document.getElementById("chatBox");
+
+            const msg = document.createElement("div");
+            msg.classList.add("message");
+            msg.classList.add(sender);
+
+            msg.textContent = text;
+
+            chatBox.appendChild(msg);
+
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }
+
+
+        function botReply(message)
+        {
+            message = message.toLowerCase();
+
+            if(message === "hello")
+            {
+                return "Hi!";
+            }
+            else if(message === "how are you")
+            {
+                return "I am fine.";
+            }
+            else if(message === "your name")
+            {
+                return "I am AI Chatbot.";
+            }
+            else if(message === "bye")
+            {
+                return "Goodbye!";
+            }
+            else
+            {
+                return "I don't understand.";
+            }
+        }
+
+
+        function sendMessage()
+        {
+            const input = document.getElementById("userInput");
+            const userText = input.value.trim();
+
+            if(userText === "")
+            {
+                return;
+            }
+
+            addMessage(userText, "user");
+
+            const response = botReply(userText);
+
+            setTimeout(() => {
+                addMessage(response, "bot");
+            }, 500);
+
+            input.value = "";
+        }
+
+
+        document.getElementById("userInput")
+        .addEventListener("keypress", function(event)
+        {
+            if(event.key === "Enter")
+            {
+                sendMessage();
+            }
+        });
+
+    </script>
+
+</body>
+</html>
