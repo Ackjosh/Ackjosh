@@ -157,12 +157,13 @@ Outside code, I’m into **football**.
 </p>
 
 ---
-<!-- ====================== END ====================== -->
 
-<!DOCTYPE html>
 
-<html lang="en">
-<head>
+### <!DOCTYPE html>
+
+### <html lang="en">
+
+  ### <head>
   
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -242,10 +243,10 @@ Outside code, I’m into **football**.
         }
     </style>
     
-</head>
-<body>
+### </head>
+### <body>
   
-  <div class="chat-container">
+  ### <div class="chat-container">
        
     <div class="chat-header">
             AI Chatbot
@@ -260,7 +261,7 @@ Outside code, I’m into **football**.
             <button onclick="sendMessage()">Send</button>
         </div>  
   
-  </div>
+  ### </div>
 
     <script>
         function addMessage(text, sender)
@@ -322,8 +323,8 @@ Outside code, I’m into **football**.
         });
     </script>
 
-</body>
-</html>
+### </body>
+### </html>
 
 Secure File Sharing Between Cloud Instances using AWS
 EC2
