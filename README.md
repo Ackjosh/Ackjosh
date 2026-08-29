@@ -47,6 +47,13 @@ Outside code, I’m into **football**.
 
 ## 💼 Experience
 
+### Strategic Student Intern - Siemens
+**Jun 2026 - Aug 2026**
+
+- Contributed to the development of AI-powered software automation solutions for enterprise applications
+- Collaborated with cross-functional teams to research, prototype, and refine intelligent automation solutions,
+improving the reliability and efficiency of software workflows.
+
 ### Artificial Intelligence Intern — Eklavya.me  
 **Feb 2026 – Apr 2026**
 
